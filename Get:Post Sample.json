@@ -1,0 +1,116 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "90d89313-7cbc-4440-9ef4-8aa473b71e84",
+			"name": "OneStopWebService",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"d09e5f19-ec52-427d-a463-5d088d6a0025",
+				"0cfcce58-dc78-444f-856f-e885da4c0562",
+				"1378aa5c-72da-4d57-9b0e-23c35b653f31"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"folders": [],
+			"requests": [
+				{
+					"id": "0cfcce58-dc78-444f-856f-e885da4c0562",
+					"name": "UserProfile",
+					"url": "http://localhost:8080/profile",
+					"description": "",
+					"data": [
+						{
+							"key": "name",
+							"value": "Owen",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [],
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "90d89313-7cbc-4440-9ef4-8aa473b71e84",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "1378aa5c-72da-4d57-9b0e-23c35b653f31",
+					"name": "test",
+					"url": "http://localhost:8080/test",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [],
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "90d89313-7cbc-4440-9ef4-8aa473b71e84",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "d09e5f19-ec52-427d-a463-5d088d6a0025",
+					"name": "UserProfile",
+					"url": "http://localhost:8080/profile?name=Owen",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "name",
+							"value": "Owen",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"auth": null,
+					"events": [],
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "90d89313-7cbc-4440-9ef4-8aa473b71e84",
+					"headers": "",
+					"pathVariables": {}
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "be7ccdb9-61af-4347-90d0-0058d06ae620",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "cac65b0b-d336-451a-8489-69ba62ebfa95",
+			"name": "AIS - globals",
+			"values": []
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}
